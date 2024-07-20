@@ -15,19 +15,39 @@ const DevProjects = () => {
         <div className="p-4">
           <ul className="list-none space-y-2">
             <li className="flex items-center">
-              <img src="/frm1.png" alt="Logo 1" className="w-auto h-auto" />
+              <Image src="/frm1.png" alt="Logo 1" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm2.png" alt="Logo 2" className="w-auto h-auto" />
+              <Image src="/frm2.png" alt="Logo 2" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm3.png" alt="Logo 3" className="w-auto h-auto" />
+              <Image src="/frm3.png" alt="Logo 3" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm4.png" alt="Logo 4" className="w-auto h-auto" />
+              <Image src="/frm4.png" alt="Logo 4" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm5.png" alt="Logo 5" className="w-auto h-auto" />
+              <Image src="/frm5.png" alt="Logo 5" className="w-auto h-auto" width={300} height={100}/>
+            </li>
+          </ul>
+        </div>
+
+        <div className="p-4 ">
+          <ul className="list-none space-y-2">
+            <li className="flex items-center">
+              <Image src="/frm6.png" alt="Logo 6" className="w-auto h-auto" width={300} height={100}/>
+            </li>
+            <li className="flex items-center">
+              <Image src="/frm7.png" alt="Logo 7" className="w-auto h-auto" width={300} height={100}/>
+            </li>
+            <li className="flex items-center">
+              <Image src="/frm8.png" alt="Logo 8" className="w-auto h-auto" width={300} height={100}/>
+            </li>
+            <li className="flex items-center">
+              <Image src="/frm9.png" alt="Logo 9" className="w-auto h-auto" width={300} height={100}/>
+            </li>
+            <li className="flex items-center">
+              <Image src="/frm10.png" alt="Logo 10" className="w-auto h-auto" width={300} height={100}/>
             </li>
           </ul>
         </div>
@@ -35,39 +55,19 @@ const DevProjects = () => {
         <div className="p-4">
           <ul className="list-none space-y-2">
             <li className="flex items-center">
-              <img src="/frm6.png" alt="Logo 6" className="w-auto h-auto" />
+              <Image src="/frm11.png" alt="Logo 11" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm7.png" alt="Logo 7" className="w-auto h-auto" />
+              <Image src="/frm12.png" alt="Logo 12" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm8.png" alt="Logo 8" className="w-auto h-auto" />
+              <Image src="/frm13.png" alt="Logo 13" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm9.png" alt="Logo 9" className="w-auto h-auto" />
+              <Image src="/frm14.png" alt="Logo 14" className="w-auto h-auto" width={300} height={100}/>
             </li>
             <li className="flex items-center">
-              <img src="/frm10.png" alt="Logo 10" className="w-auto h-auto" />
-            </li>
-          </ul>
-        </div>
-
-        <div className="p-4">
-          <ul className="list-none space-y-2">
-            <li className="flex items-center">
-              <img src="/frm11.png" alt="Logo 11" className="w-auto h-auto" />
-            </li>
-            <li className="flex items-center">
-              <img src="/frm12.png" alt="Logo 12" className="w-auto h-auto" />
-            </li>
-            <li className="flex items-center">
-              <img src="/frm13.png" alt="Logo 13" className="w-auto h-auto" />
-            </li>
-            <li className="flex items-center">
-              <img src="/frm14.png" alt="Logo 14" className="w-auto h-auto" />
-            </li>
-            <li className="flex items-center">
-              <img src="/frm15.png" alt="Logo 15" className="w-auto h-auto" />
+              <Image src="/frm15.png" alt="Logo 15" className="w-auto h-auto" width={300} height={100}/>
             </li>
           </ul>
         </div>
@@ -91,10 +91,10 @@ const DevProjects = () => {
 
           <div className="flex flex-row gap-4 mt-12">
             <div>
-              <img src="/frm16.png" alt="india img" />
+              <Image src="/frm16.png" alt="india img" width={100} height={50}/>
             </div>
             <div>
-              <img src="/frm17.png" alt="real state img" />
+              <Image src="/frm17.png" alt="real state img" width={150} height={60}/>
             </div>
           </div>
 
@@ -111,10 +111,10 @@ const DevProjects = () => {
 
           <div className="flex flex-row gap-4 mt-12">
             <div>
-              <img src="/ios.png" alt="ios image" />
+              <Image src="/ios.png" alt="ios image" width={200} height={100}/>
             </div>
             <div>
-              <img src="/google_play.png" alt="google play image" />
+              <Image src="/google_play.png" alt="google play image" width={180} height={40}/>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const DevProjects = () => {
         {/* Right Section */}
         <div className="md:w-1/2 md:pl-32 pl-0 relative">
           <ul className="space-y-4">
-            <img src="/project_mob.png" alt="mobile phone pic" className="w-auto h-auto relative md:absolute md:bottom-8" />
+            <Image src="/project_mob.png" alt="mobile phone pic" className="w-auto h-auto relative md:absolute md:bottom-8" width={300} height={100}/>
           </ul>
         </div>
       </div>
