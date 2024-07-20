@@ -6,7 +6,7 @@ const DisProject = ()=>{
           <div className="md:w-1/2 mb-6 md:mb-0">
             <h1 className="text-2xl font-bold mb-4 md:pl-4 pl-0 text-white">Lets discuss your project</h1>
             <p className="text-gray-700 md:pl-4 pl-0 text-white">
-            Let's figure out how to create an effective application,
+            Let&apos;s figure out how to create an effective application,
             its cost and terms of its development
             </p>
           </div>

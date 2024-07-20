@@ -25,7 +25,7 @@ const AppDevelopment = ()=>{
               <div className="mb-2">
                 <Image src="/design.png" alt="Logo 2" width={130} height={50} />
               </div>
-              <p className="text-gray-600">We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
+              <p className="text-gray-600">We adapt the customer&apos;s corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
             </div>
           </div>
 

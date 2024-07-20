@@ -91,10 +91,10 @@ const DevProjects = () => {
 
           <div className="flex flex-row gap-4 mt-12">
             <div>
-              <Image src="/frm16.png" alt="india img" width={100} height={50}/>
+              <Image src="/frm16.png" alt="india image" width={100} height={50}/>
             </div>
             <div>
-              <Image src="/frm17.png" alt="real state img" width={150} height={60}/>
+              <Image src="/frm17.png" alt="real state image" width={150} height={60}/>
             </div>
           </div>
 
