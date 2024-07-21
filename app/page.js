@@ -1,18 +1,22 @@
-import Navbar from "./components/Navbar";
-import Card from "./components/Card";
+import Header from "./components/Navbar";
+import Usercentric from "./components/Usercentric";
 import LogoLists from "./components/LogoLists";
 import DevCycle from "./components/DevCycle";
 import DevProjects from "./components/DevProjects";
 import DisProject from "./components/DisProject";
 import AppDevelopment from "./components/AppDevelopment";
+import Ourteam from "./components/Ourteam";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
+    {/* Heder section */}
+    <Header/>
+    
     <main className="flex min-h-screen flex-col items-center justify-between">
       <section className="container min-w-full"> 
-        <Card />
+        <Usercentric />
       </section>
 
     {/* Logo Bar section */}
@@ -39,8 +43,15 @@ export default function Home() {
     <section>
       <AppDevelopment />
     </section>
+
+    {/* Our team section */}
+    <section>
+      <Ourteam />
+    </section>
+
     </main>
-    
+    {/* Footer section */}
+    <Footer />
     </>
     
   );

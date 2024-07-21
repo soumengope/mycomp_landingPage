@@ -11,7 +11,7 @@ const DevProjects = () => {
         </h1>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 md:pl-12 md:pl-12">
         <div className="p-4">
           <ul className="list-none space-y-2">
             <li className="flex items-center">

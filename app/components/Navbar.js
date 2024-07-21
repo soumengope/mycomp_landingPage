@@ -11,14 +11,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md flex container w-10/12 justify-center mt-4 rounded-lg absolute left-1/2 top-0 transform -translate-x-1/2 -translate-y-0">
+    <nav className="bg-white shadow-md flex container w-11/12 md:w-10/12 justify-center mt-4 rounded-lg absolute left-1/2 top-0 transform -translate-x-1/2 -translate-y-0">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-        {/* Left section: Logo */}
+        {/* Left section (Logo) */}
         <div className="flex items-center">
           <Image src="/logo.png" alt="Logo" className="h-12 w-auto"  width={100} height={100}/>
         </div>
 
-        {/* Middle section: Nav links */}
+        {/* Nav links */}
         <div className="hidden md:flex space-x-4">
           <Link href="/" passHref>
             <span className="text-gray-800 hover:text-gray-600 cursor-pointer">Home</span>
@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Right section: Email and phone number */}
+        {/* Email and phone number */}
         <div className="hidden md:flex flex-row gap-3 items-end">
           <span className="text-gray-800">email@example.com</span>
           <span className="text-gray-800">+123 456 7890</span>

@@ -1,4 +1,3 @@
-// pages/index.js
 import Image from 'next/image';
 
 const AppDevelopment = ()=>{
