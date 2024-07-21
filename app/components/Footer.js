@@ -8,9 +8,9 @@ const Footer = ()=>{
       </div>
       
       {/* Items Container */}
-      <div className="w-full flex flex-row items-center">
+      <div className="w-full flex md:flex-row lg:flex-row flex-col items-center">
         
-        <div className="w-full md:w-1/2 flex flex-col items-center">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:pb-0 pb-12">
           <div className="flex items-center mb-2">
             <Image src='/phone_logo.png' width={25} height={25} alt="phone logo" className="w-12 h-12 mr-2" />
             <h2 className="text-sm">Contact nums</h2>
@@ -18,7 +18,7 @@ const Footer = ()=>{
           <p className="text-center">+91 7319047005</p>
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-col items-center">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:pb-0 pb-12">
           <div className="flex items-center mb-2">
             <Image src='/gmail_logo.png' width={25} height={25} alt="email logo" className="w-12 h-12 mr-2" />
             <h2 className="text-sm">Email</h2>
@@ -26,7 +26,7 @@ const Footer = ()=>{
           <p className="text-center">soumengop@gmail.com</p>
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-col items-center">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:pb-0 pb-12">
           <div className="flex items-center mb-2">
             <Image src='/address_logo.png' width={25} height={25} alt="address logo" className="w-12 h-12 mr-2" />
             <h2 className="text-sm">Address</h2>
@@ -34,7 +34,7 @@ const Footer = ()=>{
           <p className="text-center">West Bengal, India</p>
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-col items-center">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:pb-0 pb-12">
           <div className="flex items-center mb-2">
             <Image src='/note_logo.png' width={25} height={25} alt="request logo" className="w-12 h-12 mr-2" />
             <h2 className="text-sm">Leave a request</h2>
@@ -42,7 +42,7 @@ const Footer = ()=>{
           <p className="text-center">Leave a request</p>
         </div>
       </div>
-      <div className="pt-12 text-xs">
+      <div className="pt-4 md:pt-12 text-xs">
         <p>We work throughout the world</p>
       </div>
     </div>
